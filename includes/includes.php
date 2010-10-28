@@ -7,7 +7,15 @@ start defining global variables
 */
 
 define("TBLCONFIG","wfs_configure");
-define("FOLDER_NAME","WebfontsWordpressXmlWithEditor");
+if(is_dir(WP_PLUGIN_DIR.'/webfontswordpressxmlwitheditor'))
+	{ 
+	define("FOLDER_NAME","webfontswordpressxmlwitheditor");
+	}
+else if(is_dir(WP_PLUGIN_DIR.'/WebfontsWordpressXmlWithEditor'))
+	{
+	define("FOLDER_NAME","WebfontsWordpressXmlWithEditor");
+	}
+//define("FOLDER_NAME","WebfontsWordpressXmlWithEditor");
 define("REQESTURI","http://api.fonts.com");
 define("FFCSSHDLRURI",REQESTURI."/api/FontFaceCssHandler.axd?ProjectId=");
 define("GETFONTFAMILIESURI",REQESTURI."/api/GetFontFamilies.axd?projectid=");
