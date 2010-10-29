@@ -27,19 +27,19 @@ FIRST METHOD (Have FTP access)
 
 1. Download the plugin
 2. Extract the downloaded plugin.
-3. Rename the folder name "SteveLee-WebfontsWordpressXmlWithEditor-d2e665d" to "WebfontsWordpressXmlWithEditor".
+3. Rename the folder name "SteveLee-WebfontsWordpressXmlWithEditor-d2e665d" to "webfontswordpressxmlwitheditor".
 4. GO to your ftp browser and go to the /wp-content/plugins/ directory.
-5. Upload "WebfontsWordpressJsonWithoutEditor" folder to the `/wp-content/plugins/` directory
+5. Upload "webfontswordpressxmlwitheditor" folder to the `/wp-content/plugins/` directory
 6. Activate the 'Webfonts' plugin through the 'Plugins' menu in WordPress
 
 SECOND METHOD (Don't have FTP accesss)
 
 1. Downlaod the plugin.
 2. Extract the downloaded plugin.
-3. Rename the folder name "SteveLee-WebfontsWordpressXmlWithEditor-d2e665d" to "WebfontsWordpressXmlWithEditorr".
+3. Rename the folder name "SteveLee-WebfontsWordpressXmlWithEditor-d2e665d" to "webfontswordpressxmlwitheditor".
 4. Again archive(zip) the renamed folder.
 5. GO to WP plugin adding page.
 6. Install the newly zipped file.
 7. Activate the plugin.
 
-Note: Make sure that the plugin folder name is "WebfontsWordpressXmlWithEditor" else the plugin won't function properly.
+Note: Make sure that the plugin folder name is "webfontswordpressxmlwitheditor" else the plugin won't function properly.
