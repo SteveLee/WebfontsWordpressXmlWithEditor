@@ -3,7 +3,7 @@ Copyright 2010 Monotype Imaging Inc.
 This program is distributed under the terms of the GNU General Public License
 */
 var loadingimage = document.createElement('img');	
-var FOLDER_NAME = 'WebfontsWordpressXmlWithEditor';
+var FOLDER_NAME = 'webfontswordpressxmlwitheditor';
 loadingimage.src="images/loading.gif";
 var selectorname;
 jQuery(document).ready(function(){
